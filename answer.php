@@ -50,9 +50,12 @@
           <?php
           $number = $_GET["streetnumber"];
           $name = $_GET["streetname"];
+
           echo "<p>Your info is: " . $streetnumber . " " . $streetname . ".</p>";
           ?>
-        </div>
+      </div>
+      <div class="page-content-answer">
+        <a href="./index.php">Return...</a>
       </div>
     </main>
   </div>
