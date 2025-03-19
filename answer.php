@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>The Address wuth PHP</title>
+  <title>The Address with PHP</title>
 </head>
 
 <body>
@@ -46,10 +46,10 @@
         <img src="./images/street.jpg" alt="street image" />
       </div>
       <div class="page-content-php">
-        <div id="user-info">
+        <div id="user-address">
           <?php
-          $number = $_GET["streetnumber"];
-          $name = $_GET["streetname"];
+          $streetnumber = $_GET["streetnumber"];
+          $streetname = $_GET["streetname"];
 
           echo "<p>Your info is: " . $streetnumber . " " . $streetname . ".</p>";
           ?>
