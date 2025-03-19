@@ -38,7 +38,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The Hello World program, in PHP</span>
+        <span class="mdl-layout-title">The Address with PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -49,14 +49,14 @@
         <form action="answer.php" method="GET">
           <p>Street Number</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="number">
-            <label class="mdl-textfield__label" for="name-input">streetnumber</label>
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="streetnumber">
+            <label class="mdl-textfield__label" for="streetnumber-input">Street number...</label>
           </div>
           <br />
           <p>Street Name</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" name="name">
-            <label class="mdl-textfield__label" for="age-input">streetname</label>
+            <input class="mdl-textfield__input" type=" text" name="streetname">
+            <label class="mdl-textfield__label" for="streetname-input">Street name...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
