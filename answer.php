@@ -48,9 +48,9 @@
       <div class="page-content-php">
         <div id="user-info">
           <?php
-          $number = $_GET["Street Number"];
-          $name = $_GET["Street Name"];
-          echo "<p>Your info is: " . $number . " " . $name . ".</p>";
+          $number = $_GET["streetnumber"];
+          $name = $_GET["streetname"];
+          echo "<p>Your info is: " . $streetnumber . " " . $streetname . ".</p>";
           ?>
         </div>
       </div>
